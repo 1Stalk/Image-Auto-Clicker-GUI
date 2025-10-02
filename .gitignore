@@ -1,0 +1,30 @@
+# ===================================================================
+#  Python
+# ===================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+.env/
+venv.bak/
+
+build/
+dist/
+*.spec
+
+.idea/
+.vscode/
+*.swp
+
+*.log
+
+config.ini
+
+img/*
+
+.DS_Store
+Thumbs.db
