@@ -149,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Скриншот
 
-![App Screenshot](visuals/1.png)
+![App Screenshot](visuals/2.png)
 
 ---
 
