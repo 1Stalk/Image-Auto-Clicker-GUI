@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-A user-friendly GUI auto-clicker that finds and clicks on-screen images, now with a redesigned interface and global hotkey support.
+A user-friendly GUI auto-clicker that finds and clicks on-screen images.
 
 ---
 
@@ -144,7 +144,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Простой GUI-автокликер, который находит и нажимает на изображения на экране. Обновленная версия с переработанным интерфейсом и глобальной клавишей остановки.
+Простой GUI-автокликер, который находит и нажимает на изображения на экране.
 
 ---
 
