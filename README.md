@@ -1,21 +1,22 @@
 # Image Auto-Clicker GUI
 
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Easy-to-use GUI auto-clicker that finds and clicks on-screen images.
+A user-friendly GUI auto-clicker that finds and clicks on-screen images, now with a redesigned interface and global hotkey support.
 
 ---
 
-### Screenshot
+###
 
-![App Screenshot](visuals/1.png)
+![App GIF](visuals/1.gif)
 
 ---
 
 ### Key Features
 
-*   **Modern & User-Friendly GUI:** An intuitive interface built with CustomTkinter.
+*   **Redesigned Modern GUI:** A clean, intuitive interface built with CustomTkinter, featuring collapsible sections for settings to save space.
+*   **Global Stop Hotkey:** Stop the script at any time by pressing a configurable key (default: `Esc`), even when the application window is not in focus.
+*   **Resettable Settings:** Each setting can be individually reverted to its default value with a single click.
 *   **Selectable Search Area:** Scan the entire screen or select a specific region with your mouse to increase performance and accuracy.
 *   **Dynamic Image Loading:** Automatically loads all `.png`, `.jpg`, and `.jpeg` images from the `img` folder.
 *   **Customizable Mouse Movement:** Choose between "Smooth" movement (human-like) or "Instant" clicks.
@@ -85,10 +86,10 @@ This method requires Python and dependencies to be installed.
 2.  **Launch the App:** Run the `.exe` or the Python script.
 3.  **Select Area (Optional):** Click the "Select Area" button to draw a rectangle on the screen. The search will be confined to this area. Click "Reset" to go back to full-screen search.
 4.  **Configure Settings:**
-    *   Choose your preferred mouse movement style ("Smooth" or "Instant").
-    *   Adjust the duration/delay values as needed.
+    *   Click on the "General Settings" or "Mouse Movement" headers to expand the sections.
+    *   Adjust any values as needed. If you want to revert a change, click the "⟲" button that appears next to the modified field.
 5.  **Start Clicking:** Press the "Start" button to begin the automation.
-6.  **Stop Clicking:** Press the "Stop" button at any time to halt the process.
+6.  **Stop Clicking:** Press the "Stop" button in the app or press your configured **Stop Key** (e.g., `Esc`) at any time to halt the process.
 
 ---
 
@@ -113,13 +114,14 @@ If you want to build the executable (`.exe`) yourself, follow these steps:
 
 The application automatically creates a `config.ini` file to store your settings. You can edit it manually if needed.
 
-| Parameter          | Description                                                                 | Default Value |
-| ------------------ | --------------------------------------------------------------------------- | ------------- |
-| `image_folder`     | The folder where your template images are stored.                           | `img`         |
-| `threshold`        | The confidence level for a match (0.0 to 1.0). Higher is stricter.          | `0.8`         |
-| `post_click_delay` | The delay (in seconds) after a successful click before searching again.     | `2.6`         |
-| `idle_delay`       | The delay (in seconds) between searches when no image is found.             | `0.5`         |
-| `language`         | The default language for the interface (`en` or `ru`).                      | `en`          |
+| Parameter          | Description                                                              | Default Value |
+| ------------------ | ------------------------------------------------------------------------ | ------------- |
+| `image_folder`     | The folder where your template images are stored.                        | `img`         |
+| `threshold`        | The confidence level for a match (0.1 to 1.0). Higher is stricter.       | `0.8`         |
+| `post_click_delay` | The delay (in seconds) after a successful click before searching again.  | `2.6`         |
+| `idle_delay`       | The delay (in seconds) between searches when no image is found.          | `0.5`         |
+| `language`         | The default language for the interface (`en` or `ru`).                   | `en`          |
+| `stop_key`         | The global hotkey to stop the script (e.g., `esc`, `f12`).               | `esc`         |
 
 ---
 
@@ -140,22 +142,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # Image Auto-Clicker GUI
 
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Простой GUI-автокликер, который находит и нажимает на изображения на экране.
+Простой GUI-автокликер, который находит и нажимает на изображения на экране. Обновленная версия с переработанным интерфейсом и глобальной клавишей остановки.
 
 ---
 
-### Скриншот
+###
 
-![App Screenshot](visuals/2.png)
+![App GIF](visuals/2.gif)
 
 ---
 
 ### Ключевые возможности
 
-*   **Современный и удобный GUI:** Интуитивно понятный интерфейс, созданный с помощью CustomTkinter.
+*   **Переработанный GUI:** Чистый, интуитивно понятный интерфейс на CustomTkinter со сворачиваемыми секциями настроек для экономии места.
+*   **Глобальная клавиша остановки:** Останавливайте скрипт в любой момент нажатием настроенной клавиши (по умолчанию: `Esc`), даже если окно программы неактивно.
+*   **Сбрасываемые настройки:** Каждую настройку можно мгновенно вернуть к значению по умолчанию одним кликом.
 *   **Выбор области поиска:** Сканируйте весь экран или выделите определенную область мышью, чтобы повысить производительность и точность.
 *   **Динамическая загрузка изображений:** Автоматически загружает все изображения (`.png`, `.jpg`, `.jpeg`) из папки `img`.
 *   **Настраиваемое движение мыши:** Выбирайте между "Плавным" (имитация человека) и "Мгновенным" перемещением.
@@ -225,10 +228,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 2.  **Запустите приложение:** Запустите `.exe` файл или Python-скрипт.
 3.  **Выберите область (необязательно):** Нажмите кнопку "Выбрать область", чтобы нарисовать прямоугольник на экране. Поиск будет ограничен этой областью. Нажмите "Сбросить", чтобы вернуться к поиску по всему экрану.
 4.  **Настройте параметры:**
-    *   Выберите предпочтительный стиль движения мыши ("Плавное" или "Мгновенное").
-    *   При необходимости отрегулируйте значения длительности/задержки.
+    *   Нажмите на заголовки "Основные настройки" или "Перемещение мыши", чтобы раскрыть секции.
+    *   Отрегулируйте значения. Если вы хотите отменить изменение, нажмите на кнопку "⟲", которая появится рядом с измененным полем.
 5.  **Начните работу:** Нажмите кнопку "Старт", чтобы запустить автоматизацию.
-6.  **Остановите работу:** Нажмите кнопку "Стоп" в любой момент, чтобы прервать процесс.
+6.  **Остановите работу:** Нажмите кнопку "Стоп" в приложении или используйте вашу **клавишу остановки** (например, `Esc`) в любой момент, чтобы прервать процесс.
 
 ---
 
@@ -256,10 +259,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Параметр           | Описание                                                                  | Значение по умолчанию |
 | ------------------ | ------------------------------------------------------------------------- | --------------------- |
 | `image_folder`     | Папка, в которой хранятся ваши изображения-шаблоны.                       | `img`                 |
-| `threshold`        | Уровень уверенности для совпадения (от 0.0 до 1.0). Чем выше, тем строже. | `0.8`                 |
+| `threshold`        | Уровень уверенности для совпадения (от 0.1 до 1.0). Чем выше, тем строже. | `0.8`                 |
 | `post_click_delay` | Задержка (в секундах) после успешного клика перед следующим поиском.      | `2.6`                 |
 | `idle_delay`       | Задержка (в секундах) между циклами поиска, когда изображение не найдено.  | `0.5`                 |
 | `language`         | Язык интерфейса по умолчанию (`en` или `ru`).                             | `en`                  |
+| `stop_key`         | Глобальная клавиша для остановки скрипта (например, `esc`, `f12`).         | `esc`                 |
 
 ---
 
