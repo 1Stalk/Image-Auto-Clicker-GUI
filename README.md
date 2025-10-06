@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-A user-friendly GUI auto-clicker that finds and clicks on-screen images.
+A simple GUI auto-clicker that finds and clicks on-screen images.
 
 ---
 
