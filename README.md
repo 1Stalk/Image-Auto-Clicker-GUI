@@ -14,7 +14,7 @@ A simple GUI auto-clicker that finds and clicks on-screen images.
 
 ### Key Features
 
-*   **Redesigned Modern GUI:** A clean, intuitive interface built with CustomTkinter, featuring collapsible sections for settings to save space.
+*   **Modern GUI:** A clean, intuitive interface built with CustomTkinter, featuring collapsible sections for settings to save space.
 *   **Global Stop Hotkey:** Stop the script at any time by pressing a configurable key (default: `Esc`), even when the application window is not in focus.
 *   **Resettable Settings:** Each setting can be individually reverted to its default value with a single click.
 *   **Selectable Search Area:** Scan the entire screen or select a specific region with your mouse to increase performance and accuracy.
@@ -156,7 +156,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Ключевые возможности
 
-*   **Переработанный GUI:** Чистый, интуитивно понятный интерфейс на CustomTkinter со сворачиваемыми секциями настроек для экономии места.
+*   **GUI:** Чистый, интуитивно понятный интерфейс на CustomTkinter со сворачиваемыми секциями настроек для экономии места.
 *   **Глобальная клавиша остановки:** Останавливайте скрипт в любой момент нажатием настроенной клавиши (по умолчанию: `Esc`), даже если окно программы неактивно.
 *   **Сбрасываемые настройки:** Каждую настройку можно мгновенно вернуть к значению по умолчанию одним кликом.
 *   **Выбор области поиска:** Сканируйте весь экран или выделите определенную область мышью, чтобы повысить производительность и точность.
